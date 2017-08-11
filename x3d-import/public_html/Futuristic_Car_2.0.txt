@@ -1,0 +1,21 @@
+Here is a futuristic car i modeled and textured in Blender.
+
+The concept was created by peter.k: http://piotrkupsc.weebly.com/index.html
+
+
+All textures 4096px
+
+Game Ready Formats:
+- blend
+- fbx
+- dae
+- x3d
+
+Demo-Video: https://www.youtube.com/watch?v=DZYQTfv3oNE
+
+First test for a racing game by rocco martino:
+https://www.youtube.com/watch?v=IkTkAzmdpj8
+
+A testdrive in Arma 3 by ThrompTOH:
+https://www.youtube.com/watch?v=PVA3GzTDzFY
+
