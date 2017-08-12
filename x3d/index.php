@@ -42,6 +42,7 @@ and open the template in the editor.
                     break;
             }
         }
+        $tam = 0;
     ?>
         
    </div>
