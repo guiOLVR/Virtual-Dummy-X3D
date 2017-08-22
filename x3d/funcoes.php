@@ -12,15 +12,21 @@
             echo"</scene>";
         echo"</x3d>";
     }
-
+    
+    function manequim_p(){
+        cenario("p_homen");
+    }
     function manequim_m(){
-        cenario("teste_roupa");
+        cenario("m_homen");
     }
     function manequim_g(){
-        cenario("g");
+        cenario("g_homen");
     }
     function manequim_gg(){
-        cenario("gg");
+        cenario("gg_homen");
+    }
+    function manequim_pw(){
+        cenario("p_mulher");
     }
     function manequim_mw(){
         cenario("m_mulher");

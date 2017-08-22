@@ -57,9 +57,10 @@ and open the template in the editor.
                         <input type="radio" name="sexo" value="mulher" id="woman">
                         <label for="woman">Feminino</label>
                         <select name="num">
-                                <option value="1">M</option>
-                                <option value="2">G</option>
-                                <option value="3">GG</option>
+                                <option value="1">P</option>
+                                <option value="2">M</option>
+                                <option value="3">G</option>
+                                <option value="4">GG</option>
                         </select>
                         <input type="submit" value="exibir">
                         </div> 
@@ -73,14 +74,16 @@ and open the template in the editor.
                                 if($tam != 0){
                                     switch ($tam){
                                         case 1:
-                                            manequim_m();
+                                            manequim_p();
                                             break;
                                         case 2:
-                                            manequim_g();
+                                            manequim_m();
                                             break;
                                         case 3:
-                                            manequim_gg();
+                                            manequim_g();
                                             break;
+                                        case 4:
+                                            manequim_gg();
                                     }
                                 }
                                 $tam = 0;
@@ -89,14 +92,16 @@ and open the template in the editor.
                                if($tam != 0){
                                     switch ($tam){
                                         case 1:
-                                            manequim_mw();
+                                            manequim_pw();
                                             break;
                                         case 2:
-                                            manequim_gw();
+                                            manequim_mw();
                                             break;
                                         case 3:
-                                            manequim_ggw();
+                                            manequim_gw();
                                             break;
+                                        case 4:
+                                            manequim_ggw();
                                     }
                                }    
                             }
