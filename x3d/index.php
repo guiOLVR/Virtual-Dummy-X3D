@@ -52,10 +52,18 @@ and open the template in the editor.
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">
                     <div id="select">
                     <form method="post">
-                        Sexo: <input type="radio" name="sexo" value="homen" id="man" checked="">
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="man">
+                            <input type="radio" name="sexo" value="homen" id="man" class="mdl-radio__button" name="options" value="1" checked>
+                            <span class="mdl-radio__label">Masculino</span>
+                        </label>
+                        <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="woman">
+                            <input type="radio" name="sexo" value="mulher" id="woman" value="homen" class="mdl-radio__button">
+                            <span class="mdl-radio__label">Feminino</span>
+                        </label>
+                        <!--Sexo: <input type="radio" name="sexo" value="homen" id="man" checked="">
                         <label for="man">Masculino</label>
                         <input type="radio" name="sexo" value="mulher" id="woman">
-                        <label for="woman">Feminino</label>
+                        <label for="woman">Feminino</label>-->
                         <select name="num">
                                 <option value="1">P</option>
                                 <option value="2">M</option>
