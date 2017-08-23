@@ -29,7 +29,7 @@
 					<Shape>
 						<Appearance>
 							<ImageTexture DEF="IM_male_casualsuit04_diffuse_png"
-							              url='"texturas/male_casualsuit04_diffuse.png" "male_casualsuit04_diffuse.png" "C:/Users/Guilherme/Documents/makehuman/v1/exports///textures/male_casualsuit04_diffuse.png"'
+							              url='"texturas/male_casualsuit04_diffuse_razul.png"'
 							              />
 							<TextureTransform 
 							                  translation="0.000000 0.000000"

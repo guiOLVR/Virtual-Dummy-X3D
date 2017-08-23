@@ -29,6 +29,10 @@ and open the template in the editor.
             height: 300px;
             background: url('thewho.png') no-repeat center/cover;
         }
+        .razul{
+            height: 300px;
+            background: url('razul.png') no-repeat center/cover;
+        }
     </style>
 </head>
 <body> 
@@ -48,9 +52,24 @@ and open the template in the editor.
             </header>
             <main class="mdl-layout__content">
             <div class="mdl-grid">
-                <div class="image1 mdl-cell mdl-cell--2-col"></div>
-                <div class="thewho mdl-cell mdl-cell--2-col"></div>
-                 <div class="image1 mdl-cell mdl-cell--2-col">oi</div>
+                <div class="image1 mdl-cell mdl-cell--2-col">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+                        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label"></span>
+                    </label>
+                </div>
+                <div class="thewho mdl-cell mdl-cell--2-col">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+                        <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label"></span>
+                    </label>
+                </div>
+                <div class="razul mdl-cell mdl-cell--2-col">
+                    <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+                        <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+                        <span class="mdl-checkbox__label"></span>
+                    </label>
+                </div>
                 
                 <div class="mdl-layout-spacer"></div>
                 <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet">

@@ -36,7 +36,7 @@
 							                  scale="1.000000 1.000000"
 							                  rotation="0.000000"
 							                  />
-							<Material DEF="MA_male_casualsuit04"
+							<Material DEF="MA_male_casualsuit04_002"
 							          diffuseColor="0.800 0.800 0.800"
 							          specularColor="0.011 0.011 0.011"
 							          emissiveColor="0.000 0.000 0.000"
