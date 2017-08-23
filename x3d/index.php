@@ -25,6 +25,10 @@ and open the template in the editor.
             height: 300px;
             background: url('imgtest.jpg') no-repeat center/cover;
         }
+        .thewho{
+            height: 300px;
+            background: url('thewho.png') no-repeat center/cover;
+        }
     </style>
 </head>
 <body> 
@@ -44,8 +48,8 @@ and open the template in the editor.
             </header>
             <main class="mdl-layout__content">
             <div class="mdl-grid">
-                <div class="image1 mdl-cell mdl-cell--2-col">oi</div>
-                <div class="image1 mdl-cell mdl-cell--2-col">oi</div>
+                <div class="image1 mdl-cell mdl-cell--2-col"></div>
+                <div class="thewho mdl-cell mdl-cell--2-col"></div>
                  <div class="image1 mdl-cell mdl-cell--2-col">oi</div>
                 
                 <div class="mdl-layout-spacer"></div>
