@@ -36,6 +36,9 @@ and open the template in the editor.
             background: url('razul.png') no-repeat center/cover;
         }
     </style>
+    <script>
+         document.getElementById('navType').setAttribute("type", currentMode);
+    </script>    
 </head>
 <body> 
         <div class="transparent mdl-layout mdl-js-layout mdl-layout--fixed-header"><!--Toda pagina do corpo
