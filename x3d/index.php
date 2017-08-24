@@ -96,7 +96,7 @@ and open the template in the editor.
                         <input type="submit" value="exibir">
                         </div> 
                     </form>
-                        <?php//aqui onde recebe as variaveis e retornaa função com os manequins
+                        <?php
                             $tam = isset($_POST["num"])?$_POST["num"]:0;
                             $sex = isset($_POST["sexo"])?$_POST["sexo"]:0;
                             include "funcoes.php";
