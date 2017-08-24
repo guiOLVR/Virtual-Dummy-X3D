@@ -114,12 +114,15 @@ and open the template in the editor.
                             <!--Neste php acontece o chamado das funções que pelos parametros passados, 
                             chama o manequim correspondente.-->
                             <?php
-                                $tam = isset($_POST["num"])?$_POST["num"]:0;
-                                $sex = isset($_POST["sexo"])?$_POST["sexo"]:0;
-                                include "funcoes.php";
+                                $tam = isset($_POST["num"])?$_POST["num"]:0;//Tamanho do manequim(P,M,G,GG)
+                                $sex = isset($_POST["sexo"])?$_POST["sexo"]:0;//Sexo do manequim(M,F)
+                                include "funcoes.php";//incluindo a classe funcoes.php(funções de cenario e chamadas do objeto)
 
+                                //se o valor da variavel for igual a string homen ele entra no if para chamar um manequim masculino
                                 if($sex == "homen" ){
+                                    //se o tamanho for diferente de 0 ele entra no swit
                                     if($tam != 0){
+                                        //Pega o valor passado(P=1,M=2,G=3,GG=4) e chama a função do manequim correspondente.
                                         switch ($tam){
                                             case 1:
                                                 manequim_p();
@@ -136,6 +139,7 @@ and open the template in the editor.
                                     }
                                     $tam = 0;
                                 }
+                                //se não entrar no if ele vai criar um manequim do sexo feminino
                                 else{
                                    if($tam != 0){
                                         switch ($tam){

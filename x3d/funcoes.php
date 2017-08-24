@@ -1,5 +1,15 @@
 
 <?php
+    /*Cenario é a função que cria a tela x3d e recebe um variavel com o nome do objeto a ser chamado,
+     *  <x3d>Cria a tela
+     * <scene>cria o cenario
+     * <directionalLight> Iluminação
+     * <navigationInfo>
+     * <PointLight>
+     * <SpotLight>
+     * <viewpoint> posiciona o objeto na tela
+     * <Inline> chama o objeto para dentro do cenario>
+     */
     function cenario($nick){
         echo" <x3d width='400px' height='650px'>";
            echo"<scene>";
@@ -13,6 +23,7 @@
         echo"</x3d>";
     }
     
+    //Funções que passam o nome do objeto para o cenario e que são as chamadas no swit case no php do index.php
     function manequim_p(){
         cenario("p_homen");
     }
