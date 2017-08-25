@@ -11,14 +11,14 @@ and open the template in the editor.
     <!--Os imports dos frameworks-->
     <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-green.min.css" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-pink.min.css" />
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <!--Estilo css de alguns divs especiais-->
     <style>
         .transparent{
-            background: url('transparent.jpg') center / cover;
+            background: url('fundo.jpg') center / cover;
         }
         .mdl-cell{
             height: 50px;
@@ -34,6 +34,10 @@ and open the template in the editor.
         .razul{
             height: 300px;
             background: url('razul.png') no-repeat center/cover;
+        }
+        .greenday{
+            height: 300px;
+            background: url('camisas/gday.png') no-repeat center/cover;
         }
     </style>
     <script>
@@ -66,7 +70,7 @@ and open the template in the editor.
                     são 8, no Smartphone são 4) você pode definir o tamanho do grid caso queira, e pode definir
                     por dispositivo-->
                     
-                    <div class="image1 mdl-cell mdl-cell--2-col"><!--Neste caso o chamo 3 classes dentro da div
+                    <div class="greenday mdl-cell mdl-cell--2-col"><!--Neste caso o chamo 3 classes dentro da div
                     a classe image1 é a classe da imagem do primeiro grid da tela, a classe mdl-cell é para
                     criar a celula do grid e a class mdl-cell--2--col diz q a celula do meu grid vai ocupar 2 colunas-->
                         <!--Checkbox das roupas para exibir no manequim-->

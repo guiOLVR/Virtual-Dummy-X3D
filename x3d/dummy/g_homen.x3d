@@ -29,7 +29,7 @@
 					<Shape>
 						<Appearance>
 							<ImageTexture DEF="IM_male_casualsuit04_diffuse_png"
-							              url='"texturas/male_casualsuit04_diffuse_thewho.png"'
+							              url='"texturas/male_casualsuit04_diffuse_gday.png"'
 							              />
 							<TextureTransform 
 							                  translation="0.000000 0.000000"
