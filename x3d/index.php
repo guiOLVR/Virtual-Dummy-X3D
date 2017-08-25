@@ -65,24 +65,27 @@ and open the template in the editor.
                     e a responsividade do site(o grid padrão é de 12 colunas, no monitar desktop, no tablet
                     são 8, no Smartphone são 4) você pode definir o tamanho do grid caso queira, e pode definir
                     por dispositivo-->
+                    
                     <div class="image1 mdl-cell mdl-cell--2-col"><!--Neste caso o chamo 3 classes dentro da div
                     a classe image1 é a classe da imagem do primeiro grid da tela, a classe mdl-cell é para
                     criar a celula do grid e a class mdl-cell--2--col diz q a celula do meu grid vai ocupar 2 colunas-->
                         <!--Checkbox das roupas para exibir no manequim-->
-                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
-                            <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+                        <form method="post">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="gday"><!--camiseta green day-->
+                            <input type="checkbox" name="camiseta" value="1" id="gday" class="mdl-checkbox__input">
                             <span class="mdl-checkbox__label"></span>
                         </label>
                     </div>
                     <div class="thewho mdl-cell mdl-cell--2-col">
-                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
-                            <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
-                            <span class="mdl-checkbox__label"></span>
-                        </label>
+                        <!--Form do check box-->
+                            <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="thewho"><!--camiseta the who-->
+                                <input type="checkbox" name="camiseta" value="2" id="thewho" class="mdl-checkbox__input">
+                                <span class="mdl-checkbox__label"></span>
+                            </label>
                     </div>
                     <div class="razul mdl-cell mdl-cell--2-col">
-                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
-                            <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+                        <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="razul"><!--Camiseta R. Azul-->
+                            <input type="checkbox" name="camiseta" value="3" id="razul" class="mdl-checkbox__input">
                             <span class="mdl-checkbox__label"></span>
                         </label>
                     </div>
@@ -94,7 +97,7 @@ and open the template in the editor.
                     <div class="mdl-cell mdl-cell--4-col mdl-cell--6-col-tablet"><!--Grid do x3d-->
                         <!--Botões de seleção das caracteristicas do manequim-->
                         <div id="select">
-                        <form method="post">
+                       <!-- <form method="post">-->
                             <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="man">
                                 <input type="radio" name="sexo" value="homen" id="man" class="mdl-radio__button" name="options" value="1" checked>
                                 <span class="mdl-radio__label">Masculino</span>
@@ -117,10 +120,11 @@ and open the template in the editor.
                             <!--Neste php acontece o chamado das funções que pelos parametros passados, 
                             chama o manequim correspondente.-->
                             <?php
+                                $camisa = isset($_POST["camiseta"])?$_POST["camiseta"]:"não ta recebendo nd";//camiseta selecionada
                                 $tam = isset($_POST["num"])?$_POST["num"]:0;//Tamanho do manequim(P,M,G,GG)
                                 $sex = isset($_POST["sexo"])?$_POST["sexo"]:0;//Sexo do manequim(M,F)
                                 include "funcoes.php";//incluindo a classe funcoes.php(funções de cenario e chamadas do objeto)
-
+                                echo"<h1>$camisa</h1>";
                                 //se o valor da variavel for igual a string homen ele entra no if para chamar um manequim masculino
                                 if($sex == "homen" ){
                                     //se o tamanho for diferente de 0 ele entra no swit
