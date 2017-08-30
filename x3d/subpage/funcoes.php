@@ -27,15 +27,55 @@
     function manequim_p(){
         cenario("p_homen");
     }
+    function manequim_p_gday(){
+        cenario("p_homen_gday");
+    }
+    function manequim_p_thewho(){
+        cenario("p_homen_thewho");
+    }
+    function manequim_p_razul(){
+        cenario("p_homen_razul");
+    }
+//---------------//----------------
     function manequim_m(){
         cenario("m_homen");
     }
+    function manequim_m_gday(){
+        cenario("m_homen_gday");
+    }
+    function manequim_m_thewho(){
+        cenario("m_homen_thewho");
+    }
+    function manequim_m_razul(){
+        cenario("m_homen_razul");
+    }
+//-------------//------------------
     function manequim_g(){
         cenario("g_homen");
     }
+    function manequim_g_gday(){
+        cenario("g_homen_gday");
+    }
+    function manequim_g_thewho(){
+        cenario("g_homen_thewho");
+    }
+    function manequim_g_razul(){
+        cenario("g_homen_razul");
+    }
+//--------------//----------------
     function manequim_gg(){
         cenario("gg_homen");
     }
+    function manequim_gg_gday(){
+        cenario("gg_homen_gday");
+    }
+    function manequim_gg_thewho(){
+        cenario("gg_homen_thewho");
+    }
+    function manequim_gg_razul(){
+        cenario("gg_homen_razul");
+    }
+//--------------//----------------
     function manequim_pw(){
         cenario("p_mulher");
     }
