@@ -125,7 +125,7 @@
 
 	<body>
 		<div class="transparent mdl-layout mdl-js-layout mdl-layout--fixed-header">
-			<header class="mdl-layout__header mdl-layout__header">
+			<header class="mdl-layout__header mdl-layout__header"><!--Cabecalho-->
 	            <div class="mdl-layout__header-row">
 	            	<a href="index.php">
 		            	<span class="mdl-layout-title home">
