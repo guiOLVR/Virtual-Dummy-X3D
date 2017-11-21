@@ -72,6 +72,17 @@ and open the template in the editor.
                 text-decoration:    none;
                 list-style-type:    none;
             }
+            .cabmenu{
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: rgba(100,100,100,1);
+                    font-family: "Tangerine";
+                }
+            .cabmenu:hover{
+                    color: rgba(100,100,100,1);
+                    text-decoration: underline;
+                    list-style-type: none;
+                }            
     </style>
         
 </head>
@@ -87,9 +98,10 @@ and open the template in the editor.
                     </span>
                     <div class="mdl-layout-spacer"></div>
                     <nav class="mdl-layout-navigation">
-                        <a href="#" class="mdl-layout-navigation__link">Homen</a>
-                        <a href="#" class="mdl-layout-navigation__link">Mulher</a>
-                        <a href="#" class="mdl-layout-navigation__link">Infantil</a>
+                        <a href="homens.php" class="mdl-layout-navigation__link cabmenu">Homen</a>
+                        <a href="mulheres.php" class="mdl-layout-navigation__link cabmenu">Mulher</a>
+                        <a href="#" class="mdl-layout-navigation__link cabmenu">Meninas</a>
+                        <a href="#" class="mdl-layout-navigation__link cabmenu">Meninos</a>
                     </nav>
                 </div>
             </header>
