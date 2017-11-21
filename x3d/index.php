@@ -113,13 +113,24 @@
 				list-style-type: none;
 				text-decoration: none; 
 			}
-			.home{
+		.home{
 	            font-size: 40px;
 	            font-weight: bold;
 	            color: rgba(77,77,77,1);
 	            font-family: "Tangerine";
 	            font-style: italic;
        		}
+                .cabmenu{
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: rgba(100,100,100,1);
+                    font-family: "Tangerine";
+                }
+                .cabmenu:hover{
+                    color: rgba(100,100,100,1);
+                    text-decoration: underline;
+                    list-style-type: none;
+                }
 	    </style>
 	</head>
 
@@ -134,9 +145,10 @@
 		            </a>
 	                <div class="mdl-layout-spacer"></div>
 	                <nav class="mdl-layout-navigation">
-	                    <a href="#" class="mdl-layout-navigation__link">Homen</a>
-	                    <a href="#" class="mdl-layout-navigation__link">Mulher</a>
-	                    <a href="#" class="mdl-layout-navigation__link">Infantil</a>
+                            <a href="subpage/homens.php" class="mdl-layout-navigation__link cabmenu">Homen</a>
+                            <a href="subpage/mulheres.php" class="mdl-layout-navigation__link cabmenu">Mulher</a>
+	                    <a href="#" class="mdl-layout-navigation__link cabmenu">Menina</a>
+                            <a href="#" class="mdl-layout-navigation__link cabmenu">Menino</a>
 	                </nav>
 	            </div>
 	        </header>
