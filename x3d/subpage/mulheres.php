@@ -100,8 +100,8 @@ and open the template in the editor.
                     <nav class="mdl-layout-navigation">
                         <a href="homens.php" class="mdl-layout-navigation__link cabmenu">Homen</a>
                         <a href="mulheres.php" class="mdl-layout-navigation__link cabmenu">Mulher</a>
-                        <a href="#" class="mdl-layout-navigation__link cabmenu">Meninas</a>
-                        <a href="#" class="mdl-layout-navigation__link cabmenu">Meninos</a>
+                        <a href="meninas.php" class="mdl-layout-navigation__link cabmenu">Meninas</a>
+                        <a href="meninos.php" class="mdl-layout-navigation__link cabmenu">Meninos</a>
                     </nav>
                 </div>
             </header>

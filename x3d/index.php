@@ -147,8 +147,8 @@
 	                <nav class="mdl-layout-navigation">
                             <a href="subpage/homens.php" class="mdl-layout-navigation__link cabmenu">Homen</a>
                             <a href="subpage/mulheres.php" class="mdl-layout-navigation__link cabmenu">Mulher</a>
-	                    <a href="#" class="mdl-layout-navigation__link cabmenu">Menina</a>
-                            <a href="#" class="mdl-layout-navigation__link cabmenu">Menino</a>
+                            <a href="subpage/meninas.php" class="mdl-layout-navigation__link cabmenu">Menina</a>
+                            <a href="subpage/meninos.php" class="mdl-layout-navigation__link cabmenu">Menino</a>
 	                </nav>
 	            </div>
 	        </header>
