@@ -160,10 +160,12 @@ and open the template in the editor.
                             <!--Neste php acontece o chamado das funções que pelos parametros passados, 
                             chama o manequim correspondente.-->
                             <?php
+                                $camisa = isset($_POST["camiseta"])?$_POST["camiseta"]:2;//camiseta selecionada
                                 $tam = isset($_POST["num"])?$_POST["num"]:0;//Tamanho do manequim(P,M,G,GG)
                                 include "funcoes.php";//incluindo a classe funcoes.php(funções de cenario e chamadas do objeto)
                                 
-                                   if($tam != 0){
+                                switch ($camisa){
+                                    case 1:
                                         switch ($tam){
                                             case 1:
                                                 manequim_pw();
@@ -177,7 +179,38 @@ and open the template in the editor.
                                             case 4:
                                                 manequim_ggw();
                                         }
-                                   }    
+                                        break;
+                                    case 2: 
+                                        switch ($tam){
+                                            case 1:
+                                                manequim_pw();
+                                                break;
+                                            case 2:
+                                                manequim_mw();
+                                                break;
+                                            case 3:
+                                                manequim_gw();
+                                                break;
+                                            case 4:
+                                                manequim_ggw();
+                                        }
+                                        break;
+                                    case 3:
+                                        switch ($tam){
+                                            case 1:
+                                                manequim_pw();
+                                                break;
+                                            case 2:
+                                                manequim_mw();
+                                                break;
+                                            case 3:
+                                                manequim_gw();
+                                                break;
+                                            case 4:
+                                                manequim_ggw();
+                                        }
+                                        break;
+                                }
                                 
                             ?>
                     </div>
