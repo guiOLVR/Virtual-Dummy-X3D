@@ -75,7 +75,8 @@
     function manequim_gg_razul(){
         cenario("gg_homen_razul");
     }
-//--------------//----------------
+//--------------Mulheres----------------
+//-----------thewho--------------    
     function manequim_pw(){
         cenario("p_mulher");
     }
@@ -87,5 +88,31 @@
     }
     function manequim_ggw(){
         cenario("gg_mulher");
+    }
+//-------------gday---------------
+    function manequim_pw_gday(){
+        cenario("p_mulher_gday");
+    }
+    function manequim_mw_gday(){
+        cenario("m_mulher_gday");
+    }
+    function manequim_gw_gday(){
+        cenario("g_mulher_gday");
+    }
+    function manequim_ggw_gday(){
+        cenario("gg_mulher_gday");
+    }
+//-------------razul------------
+    function manequim_pw_razul(){
+        cenario("p_mulher_razul");
+    }
+    function manequim_mw_razul(){
+        cenario("m_mulher_razul");
+    }
+    function manequim_gw_razul(){
+        cenario("g_mulher_razul");
+    }
+    function manequim_ggw_razul(){
+        cenario("gg_mulher_razul");
     }
 ?>

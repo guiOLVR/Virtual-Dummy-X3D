@@ -168,16 +168,16 @@ and open the template in the editor.
                                     case 1:
                                         switch ($tam){
                                             case 1:
-                                                manequim_pw();
+                                                manequim_pw_gday();
                                                 break;
                                             case 2:
-                                                manequim_mw();
+                                                manequim_mw_gday();
                                                 break;
                                             case 3:
-                                                manequim_gw();
+                                                manequim_gw_gday();
                                                 break;
                                             case 4:
-                                                manequim_ggw();
+                                                manequim_ggw_gday();
                                         }
                                         break;
                                     case 2: 
@@ -198,16 +198,16 @@ and open the template in the editor.
                                     case 3:
                                         switch ($tam){
                                             case 1:
-                                                manequim_pw();
+                                                manequim_pw_razul();
                                                 break;
                                             case 2:
-                                                manequim_mw();
+                                                manequim_mw_razul();
                                                 break;
                                             case 3:
-                                                manequim_gw();
+                                                manequim_gw_razul();
                                                 break;
                                             case 4:
-                                                manequim_ggw();
+                                                manequim_ggw_razul();
                                         }
                                         break;
                                 }
